@@ -6,7 +6,7 @@ pipeline {
         // dockerImage = 'us-central1-docker.pkg.dev/expertis-classroom/docker-repository/backend-test'
         dockerImage = 'localhost:8080'
         // NPM_CONFIG_CACHE = "${WORKSPACE}/.npm"
-        USERNAME = "gerardo"
+        USERNAME = "guret"
     }
     stages{
         stage("build"){
